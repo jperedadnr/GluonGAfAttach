@@ -1,0 +1,139 @@
+[
+  {
+    "name" : "com.gluonhq.charm.glisten.control.BottomNavigation",
+    "methods":[
+      {"name":"<init>","parameterTypes":[] }
+    ]
+  }
+,
+  {
+    "name" : "javafx.scene.Node",
+    "methods":[
+      {"name":"<init>","parameterTypes":[] },
+      {"name":"getStyleClass","parameterTypes":[] },
+      {"name":"setScaleX","parameterTypes":["double"] },
+      {"name":"getScaleX","parameterTypes":[] },
+      {"name":"setScaleY","parameterTypes":["double"] },
+      {"name":"getScaleY","parameterTypes":[] },
+      {"name":"setStyle","parameterTypes":["java.lang.String"] },
+      {"name":"getStyle","parameterTypes":[] },
+      {"name":"idProperty","parameterTypes":[] },
+      {"name":"getId","parameterTypes":[] },
+      {"name":"setId","parameterTypes":["java.lang.String"] },
+      {"name":"getStyle","parameterTypes":[] },
+      {"name":"setStyle","parameterTypes":["java.lang.String"] },
+      {"name":"isPickOnBounds","parameterTypes":[] },
+      {"name":"setPickOnBounds","parameterTypes":["boolean"] },
+      {"name":"isVisible","parameterTypes":[] },
+      {"name":"setVisible","parameterTypes":["boolean"] },
+      {"name":"isMouseTransparent","parameterTypes":[] },
+      {"name":"setMouseTransparent","parameterTypes":["boolean"] },
+      {"name":"isManaged","parameterTypes":[] },
+      {"name":"setManaged","parameterTypes":["boolean"] },
+      {"name":"isDisable","parameterTypes":[] },
+      {"name":"setDisable","parameterTypes":["boolean"] },
+      {"name":"getLayoutX","parameterTypes":[] },
+      {"name":"setLayoutX","parameterTypes":["double"] },
+      {"name":"getLayoutY","parameterTypes":[] },
+      {"name":"setLayoutY","parameterTypes":["double"] },
+      {"name":"getUserData","parameterTypes":[] },
+      {"name":"setUserData","parameterTypes":["java.lang.Object"] }
+    ]
+  }
+,
+  {
+    "name" : "javafx.scene.Parent",
+    "methods":[
+      {"name":"<init>","parameterTypes":[] },
+      {"name":"getChildren","parameterTypes":[] },
+      {"name":"getStylesheets","parameterTypes":[] }
+    ]
+  }
+,
+  {
+    "name" : "javafx.scene.Group",
+    "methods":[
+      {"name":"<init>","parameterTypes":[] },
+      {"name":"<init>","parameterTypes":["javafx.scene.Node[]"] },
+      {"name":"getChildren","parameterTypes":[] }
+    ]
+  }
+,
+  {
+    "name" : "javafx.scene.shape.SVGPath",
+    "methods":[
+      {"name":"<init>","parameterTypes":[] },
+      {"name":"setContent","parameterTypes":["java.lang.String"] },
+      {"name":"getContent","parameterTypes":[] }
+    ]
+  }
+,
+  {
+    "name":"javafx.geometry.Side",
+    "methods":[
+      {"name":"valueOf","parameterTypes":["java.lang.String"] },
+      {"name":"values","parameterTypes":[] }
+    ]
+  }
+,
+  {
+    "name" : "javafx.scene.chart.Chart",
+    "methods":[
+      {"name":"<init>","parameterTypes":[] },
+      {"name":"getAnimated","parameterTypes":[] },
+      {"name":"setAnimated","parameterTypes":["boolean"] }
+    ]
+  },
+  {
+    "name" : "javafx.scene.chart.LineChart",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.chart.Axis", "javafx.scene.chart.Axis"] },
+      {"name":"getCreateSymbols","parameterTypes":[] },
+      {"name":"setCreateSymbols","parameterTypes":["boolean"] }
+    ]
+  }
+,
+  {
+    "name" : "javafx.scene.chart.XYChart",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.chart.Axis", "javafx.scene.chart.Axis"] },
+      {"name":"isHorizontalZeroLineVisible","parameterTypes":[] },
+      {"name":"setHorizontalZeroLineVisible","parameterTypes":["boolean"] }
+    ]
+  }
+  ,
+  {
+    "name" : "javafx.scene.chart.NumberAxis",
+    "methods":[
+      {"name":"<init>","parameterTypes":[] }
+    ]
+  }
+  ,
+  {
+    "name" : "javafx.scene.chart.Axis",
+    "methods":[
+      {"name":"<init>","parameterTypes":[] },
+      {"name":"getSide","parameterTypes":[] },
+      {"name":"setSide","parameterTypes":["javafx.geometry.Side"] }
+    ]
+  }
+  ,
+  {
+    "name" : "com.gluonhq.control.roundslider.Knob",
+    "methods":[
+      {"name":"<init>","parameterTypes":[] },
+      {"name":"setMajorTickUnit","parameterTypes":["double"] },
+      {"name":"getMajorTickUnit","parameterTypes":[] },
+      {"name":"setMax","parameterTypes":["double"] },
+      {"name":"getMax","parameterTypes":[] },
+      {"name":"setMaxAngle","parameterTypes":["double"] },
+      {"name":"getMaxAngle","parameterTypes":[] },
+      {"name":"setMinAngle","parameterTypes":["double"] },
+      {"name":"getMinAngle","parameterTypes":[] },
+      {"name":"setShowTickLabels","parameterTypes":["boolean"] },
+      {"name":"isShowTickLabels","parameterTypes":[] },
+      {"name":"setShowTickMarks","parameterTypes":["boolean"] },
+      {"name":"isShowTickMarks","parameterTypes":[] }
+    ]
+  }
+]
